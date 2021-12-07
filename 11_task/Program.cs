@@ -6,7 +6,9 @@ namespace _11_task
     class Program
     {
         static void Main(string[] args)
-        {            
+        {
+            Console.WriteLine("Найти X уравнения 0 = kX + b");
+            Console.WriteLine();
             Console.Write("Введите значение b: ");
             double b = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите значение k: ");
